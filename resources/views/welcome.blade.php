@@ -5,12 +5,23 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+              <!--Import jQuery before materialize.js-->
+    <script>
+            $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+    </script>
+      <script type="text/javascript" src="js/jquery-3.1.0.js"></script>
+
+      <script type="text/javascript" src="js/app.js"></script>
+      <script type="text/javascript" src="js/materialize.js"></script>
+
         <title>Laravel</title>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+       <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
 
-        <!-- Styles -->
+       <!-- Styles -->
         <style>
             html, body {
                 background-color: #fff;
@@ -65,17 +76,19 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    <a href="{{ url('/login') }}">Login</a>
-                    <a href="{{ url('/register') }}">Register</a>
-                </div>
-            @endif
+     @include('includes.nav')
 
             <div class="content">
+
+
                 <div class="title m-b-md">
                     Laravel
+            <div class="carousel">
+                <a class="carousel-item" href="#one!"><img src="../../public/img/1.jpg"></a>
+                <a class="carousel-item" href="#two!"><img src="img/2.jpg"></a>
+                <a class="carousel-item" href="#three!"><img src="img/3.jpg"></a>
+                
+              </div>
                 </div>
 
                 <div class="links">
@@ -87,5 +100,6 @@
                 </div>
             </div>
         </div>
+
     </body>
 </html>
