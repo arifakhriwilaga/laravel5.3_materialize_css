@@ -16,4 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('/','UsersController@index');
-Route::get('home','UsersController@index');
+Route::get('home','UsersController@home');
