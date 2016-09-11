@@ -35,35 +35,30 @@
     });
     </script>
     <div class="slider fullscreen">
-    
-      
-    <div>
-    <a class="btn">Welcome</a>
     <ul class="slides">
       <li>
         <img src="img/1.jpg"> <!-- random image -->
         <div class="caption center-align">
           
-          <h3><a href =""><font color="white">How to see our Indonesia.</font></a></h3>
+          <h3><a href ="{{ URL::to('home') }}"><font color="white">How to see our Indonesia.</font></a></h3>
           <h5 class="light grey-text text-lighten-3">Welcome to my exercise web it's example web.</h5>
         </div>
       </li>
       <li>
         <img src="img/2.jpg"> <!-- random image -->
         <div class="caption left-align">
-          <h3><a href =""><font color="white">How to see our Indonesia.</font></a></h3>
+          <h3><a href ="{{URL::to('home') }}"><font color="white">How to see our Indonesia.</font></a></h3>
           <h5 class="light grey-text text-lighten-3">Welcome to my exercise web it's example web.</h5>
         </div>
       </li>
       <li>
         <img src="img/3.jpg"> <!-- random image -->
         <div class="caption right-align">
-          <h3><a href =""><font color="white">How to see our Indonesia.</font></a></h3>
+          <h3><a href ="{{ URL::to('home') }}"><font color="white">How to see our Indonesia.</font></a></h3>
           <h5 class="light grey-text text-lighten-3">Welcome to my exercise web it's example web.</h5>
         </div>
       </li>
     </ul>
-    </div>
     </div>
     </body>
 </html>
