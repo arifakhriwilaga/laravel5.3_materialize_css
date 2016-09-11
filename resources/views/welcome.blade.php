@@ -6,17 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
               <!--Import jQuery before materialize.js-->
-    <script>
-            $(document).ready(function(){
-      $('.carousel').carousel();
-    });
-    </script>
-      <script type="text/javascript" src="js/jquery-3.1.0.js"></script>
-
-      <script type="text/javascript" src="js/app.js"></script>
-      <script type="text/javascript" src="js/materialize.js"></script>
+   
 
         <title>Laravel</title>
+        <!--Link Material Design Icon -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
        <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
@@ -73,22 +67,53 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+            .carousel-item {
+                height: 500px;
+                width: 1000px;
+                margin: 0 auto;
+            }
+            
         </style>
     </head>
     <body>
+    <script type="text/javascript" src="js/jquery-3.1.0.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script>
+    $(document).ready(function(){
+    $('.carousel.carousel-slider').carousel({
+        full_width: true
+    });
+
+    $(".dropdown-button").dropdown();
+        
+        });
+    </script>
+
      @include('includes.nav')
 
             <div class="content">
 
+            <div class="carousel carousel-slider center" data-indicators="true">
+                <div class="carousel-fixed-item center">
+      <a class="btn waves-effect white grey-text darken-text-2">button</a>
+    </div>
+            <div class="carousel-item red white-text" href="#one!">
+               <p class="white-text">Here!</p>
+            </div>
+            <div class="carousel-item amber white-text" href="#one!">
+                <p class="white-text"><img width=1200px src="img/2.jpeg" ></p>
+            </div>
+            <div class="carousel-item green white-text" href="#one!">    
+                <p class="white-text"><img width=1200px src="img/3.jpg"></p>
+            </div>
+                
+              </div>
 
                 <div class="title m-b-md">
                     Laravel
-            <div class="carousel">
-                <a class="carousel-item" href="#one!"><img src="../../public/img/1.jpg"></a>
-                <a class="carousel-item" href="#two!"><img src="img/2.jpg"></a>
-                <a class="carousel-item" href="#three!"><img src="img/3.jpg"></a>
-                
-              </div>
+
                 </div>
 
                 <div class="links">
