@@ -25,7 +25,7 @@
     <div class="slider fullscreen">
     <ul class="slides">
       <li>
-        <img src="img/1.jpg"> <!-- item_slider -->
+        <img src="img/1.gif"> <!-- item_slider -->
         <div class="caption center-align">
           
           <h3><a href ="{{ URL::to('home') }}"><font color="white">How to see our Indonesia.</font></a></h3>
@@ -33,14 +33,14 @@
         </div>
       </li>
       <li>
-        <img src="img/2.jpg"> <!-- item_slider -->
+        <img src="img/2.gif"> <!-- item_slider -->
         <div class="caption left-align">
           <h3><a href ="{{URL::to('home') }}"><font color="white">How to see our Indonesia.</font></a></h3>
           <h5 class="light grey-text text-lighten-3">Welcome to my exercise web it's example web.</h5>
         </div>
       </li>
       <li>
-        <img src="img/3.jpg"> <!-- item_slider -->
+        <img src="img/3.gif"> <!-- item_slider -->
         <div class="caption right-align">
           <h3><a href ="{{ URL::to('home') }}"><font color="white">How to see our Indonesia.</font></a></h3>
           <h5 class="light grey-text text-lighten-3">Welcome to my exercise web it's example web.</h5>
