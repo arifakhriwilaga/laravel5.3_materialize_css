@@ -1,20 +1,19 @@
-<ul id="dropdown" class="dropdown-content">
-    <li><a href="#!">one<span class="badges"></span></a></li>
-    <li><a href="#!">two<span class="new badge"></span></a></li>
-    <li class="divider"></li>
-    <li class="divider"></li>
-    <li><a href="#">Outbox<span class="badge">14</span></a></li>
-  </ul>
-
 <nav>
-
-    <div class="nav-wrapper">      
-      <a href="#" class="brand-logo">Logo</a>
-      <ul class="right hide-on-med-and-down"> 
-        <li><a href="sass.html">Home</a></li>
-        <li><a class="dropdown-button" href="/" data-activates="dropdown">Menu<i class="material-icons right">arrow_drop_down</i></a></li>
+    <div class="nav-wrapper">        
+      <ul class="left hide-on-med-and-down">
+      <li><a href="#">Logo</a></li>
+      <li>
+        <div class="input-field">
+          <input id="search" type="search" required>
+          <label for="search"><i class="material-icons">search</i></label>
+        </div>
+      </li>
       </ul>
-
+      <ul class="right hide-on-med-and-down"> 
+        <li><a href="sass.html"><i class="material-icons right">dashboard</i></a></li>
+        <li><a href="s.html"><i class="material-icons right">perm_identity</i></a></li>
+        <li> &bnspt;</li>
+      </ul>
     </div>
-  </nav>
+</nav>
         
