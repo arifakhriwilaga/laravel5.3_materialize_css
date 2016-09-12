@@ -3486,7 +3486,7 @@ input[type=range] + .thumb {
 }
 
 .row .col.s3 {
-  width: 25%;
+  width: 20%;
   margin-left: auto;
   left: auto;
   right: auto;
@@ -4067,7 +4067,7 @@ input[type=range] + .thumb {
 
 nav {
   color: #fff;
-  background-color: #ee6e73;
+  background-color: #b2dfdb;
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -4204,7 +4204,7 @@ nav .input-field {
 }
 
 nav .input-field input {
-  height: 100%;
+  height: 60%;
   font-size: 1.2rem;
   border: none;
   padding-left: 2rem;
@@ -6006,7 +6006,7 @@ textarea.materialize-textarea + label:after {
 textarea {
   width: 100%;
   height: 3rem;
-  background-color: transparent;
+  background-color: #ffffff;
 }
 
 textarea.materialize-textarea {
