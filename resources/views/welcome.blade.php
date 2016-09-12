@@ -31,7 +31,7 @@
     <div class="col s3">
         <div class="card">
             <div class="card-image">
-              <img class="materialboxed" width="650" src="img/home/gunung-jaya-wijaya.jpg">
+              <img class="materialboxed" src="img/home/gunung-jaya-wijaya.jpg">
             </div>
             <div class="card-content">
             <span>
