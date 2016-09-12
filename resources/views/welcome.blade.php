@@ -1,25 +1,12 @@
 @extends('app')
 
 @section('content')
-    <div class="col s3">
-        <div class="card-panel teal">
-          <span class="white-text"></span>
-        </div>
-    </div>
-    <div class="col s3">
-        <div class="card-panel teal">
-            <span class="white-text"></span>
-        </div>
-    </div>
-    <div class="col s3">
-        <div class="card-panel teal">
-          <span class="white-text"></span>
-        </div>
-    </div>
+<div class="col s12">
+</div>
     <div class="col s3">
         <div class="card">
             <div class="card-image">
-              <img class="materialboxed" src="img/home/gunung-bromo.jpg">
+              <img class="materialboxed" src="img/home/gunung-bromo.gif">
             </div>
             <div class="card-content">
             <span>
@@ -31,7 +18,7 @@
     <div class="col s3">
         <div class="card">
             <div class="card-image">
-              <img class="materialboxed" src="img/home/gunung-jaya-wijaya.jpg">
+              <img class="materialboxed" src="img/home/gunung-jaya-wijaya.gif">
             </div>
             <div class="card-content">
             <span>
@@ -43,7 +30,7 @@
     <div class="col s3">
         <div class="card">
             <div class="card-image">
-              <img class="materialboxed" src="img/home/gunung-rinjani.jpg">
+              <img class="materialboxed" src="img/home/gunung-rinjani.gif">
             </div>
             <div class="card-content">
             <span>
@@ -55,7 +42,7 @@
     <div class="col s3">
         <div class="card">
             <div class="card-image">
-              <img class="materialboxed" src="img/home/pulau-lengkuas-belitung.jpg">
+              <img class="materialboxed" src="img/home/pulau-lengkuas-belitung.gif">
             </div>
             <div class="card-content">
             <span>
@@ -67,7 +54,7 @@
     <div class="col s3">
         <div class="card">
             <div class="card-image">
-              <img class="materialboxed" src="img/home/raja-ampat.jpg">
+              <img class="materialboxed" src="img/home/raja-ampat.gif">
             </div>
             <div class="card-content">
             <span>
