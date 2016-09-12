@@ -10,9 +10,9 @@
       </li>
       </ul>
       <ul class="right hide-on-med-and-down"> 
-        <li><a href="sass.html"><i class="material-icons right">dashboard</i></a></li>
-        <li><a href="s.html"><i class="material-icons right">perm_identity</i></a></li>
-        <li> &bnspt;</li>
+        <li><a href="/"><i class="material-icons">dashboard</i></a></li>
+        <li><a href="#"><i class="material-icons">perm_identity</i></a></li>
+        <li> &bnspt;a</li>
       </ul>
     </div>
 </nav>
