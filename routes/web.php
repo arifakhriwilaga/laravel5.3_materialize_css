@@ -17,3 +17,5 @@ Route::get('/', function () {
 
 Route::get('/','UsersController@index');
 Route::get('home','UsersController@home');
+Route::get('profile','UsersController@profile');
+Route::get('contact','UsersController@contact');
