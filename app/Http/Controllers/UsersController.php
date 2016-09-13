@@ -28,5 +28,21 @@ class UsersController extends Controller
         return view ('welcome');
     }
 
+
+    /**
+     Redirect to profile page
+     */
+        public function profile()
+    {
+        return view ('profile');
+    }
+
+    /**
+     Redirect to contact page
+     */
+        public function contact()
+    {
+        return view ('contact');
+    }
     
 }
